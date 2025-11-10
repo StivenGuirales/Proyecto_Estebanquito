@@ -1,0 +1,165 @@
+.contenedorDashboard {
+    display: flex; 
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.menuLateral {
+    width: 250px;
+    background-color: #343a40; 
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menuLateral h2 {
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+.menuLateral p {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Estilos para los enlaces del menú */
+.menuLateral nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.linkMenu {
+    color: white;
+    text-decoration: none; /* Quita el subrayado */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.linkMenu:hover {
+    background-color: #495057; /* Cambia de color al pasar el click */
+}
+
+
+.botonCerrarSesion {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* área principal (donde se ve el contenido) */
+.contenidoPrincipal {
+    flex-grow: 1; 
+    padding: 40px;
+    background-color: white;
+}
+
+.contenidoPrincipal h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.vistaPreviaTarjeta {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #007bff;
+    margin-top: 30px;
+    max-width: 400px;
+}
+
+.saldoValor {
+    font-size: 2em;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 10px 0;
+}
+
+/* formularios generales (Transacciones, Préstamos) */
+.formularioSimple {
+    max-width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.campoFormulario {
+    margin-bottom: 15px;
+}
+
+.campoFormulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campoFormulario input,
+.campoFormulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botonAccion {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.botonAccion:hover {
+    background-color: #1e7e34;
+}
+
+/* tablas de historial (Reportes, Cuentas) */
+.tablaHistorial {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tablaHistorial th, .tablaHistorial td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tablaHistorial th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Cuentas, Transacciones, Préstamos y Reportes */
+.seccionContenido {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.mensajeDeuda {
+    padding: 15px;
+    background-color: #ffeeba; 
+    border: 1px solid #ffc107;
+    color: #856404;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
